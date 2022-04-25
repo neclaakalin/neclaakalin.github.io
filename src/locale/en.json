@@ -1,0 +1,42 @@
+{
+    "nnae": "nnae",
+    "header": {
+        "about": "about",
+        "projects": "projects",
+        "designs": "designs",
+        "contact": "contact"
+    },
+    "aphorism": "\"only those who wander find new paths\"",
+    "about": {
+        "header": "hi there!",
+        "body": "It is Necla. I like to create and develop user interfaces with high user experience. That is why I am a front-end developer now.",
+        "details":"I have almost two years of full-time experience, based in London. I enjoy new frameworks the most, like React and Vue. I love details and different than the majority, I like to style."
+    },
+    "projects": {
+        "header": "i am a frontend developer",
+        "body": "and these are some of my works.",
+        "descriptions": {
+            "mundus": "Mundus is an application where you can get short informations about the countries and save where you have been to.",
+            "vygr": "Vygr is a social media platform that you can plan and share your trips. It is still not released yet, but you can follow us!",
+            "hermes": "Hermes is a software that warns drivers with an alarm when they are distracted and help them analyze their distractions via the web application. With this project, as a team of four, we have won the second place in Metu Ceng Demo Day 2020.",
+            "movie search": "A project that you can search movies and get informations about them.",
+            "connect four": "Connect four is a board game played with two in which the first to get 4 in a row wins."
+        }
+    },
+    "designs": {
+        "header": "i like to design",
+        "body": "I am not a professional but I just like it.",
+        "factoryMain": "Factory House - Home Page Design",
+        "factoryProducts": "Factory House - Products Page Design",
+        "mobile-vygr": "vygr - Trips Page Mobile Design",
+        "helpyourdiabetes": "Help Your Diabetes - Home Page Design "
+    },
+    "contact": {
+        "header": "liked what you see?",
+        "body": "Get in touch with me if you would like to learn more."
+    },
+    "footer": {
+        "header": "designed & implemented by",
+        "nnae": "nnae"
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../../assets/scss/mixins.module.scss";
+
+.aphorismContainer {
+  background-color: white;
+  height: 7em;
+  width: 40%;
+  position: absolute;
+  z-index: 10;
+  right: 2.5%;
+  top: 82vh;
+
+  i {
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    text-align: right;
+    max-width: 60%;
+
+    @include respond(sm) {
+      max-width: 80%;
+    }
+    @include respond(xs) {
+      max-width: 80%;
+    }
+  }
+
+  @include respond(sm) {
+    width: 80%;
+  }
+  @include respond(xs) {
+    width: 80%;
+  }
+}

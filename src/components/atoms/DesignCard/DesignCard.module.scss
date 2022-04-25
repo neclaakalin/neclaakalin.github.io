@@ -1,0 +1,31 @@
+@import "../../../assets/scss/colors.module.scss";
+@import "../../../assets/scss/mixins.module.scss";
+
+.designCardImage {
+  width: 9em;
+  height: 9em;
+  margin: 0.5em;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.1s;
+
+  @include respond(xs) {
+    width: 8em;
+    height: 8em;
+
+    &:hover {
+      width: 9em;
+      height: 9em;
+      margin: 0;
+      box-shadow: 0px 0px 0.3em rgba($dark-grey, 0.1);
+    }
+  }
+
+  &:hover {
+    width: 10em;
+    height: 10em;
+    margin: 0;
+    box-shadow: 0px 0px 0.3em rgba($dark-grey, 0.1);
+  }
+}

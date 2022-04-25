@@ -1,0 +1,17 @@
+@import "../../../assets/scss/mixins.module.scss";
+
+.introductionContainer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5%;
+
+  @include respond(sm) {
+    margin: 0% 5%;
+  }
+  @include respond(xs) {
+    margin: 0% 5%;
+  }
+}

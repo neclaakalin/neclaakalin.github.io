@@ -1,0 +1,122 @@
+@import "../../../assets/scss/mixins.module.scss";
+
+.projectsContainer {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+
+  @include respond(md) {
+    display: block;
+  }
+  @include respond(sm) {
+    display: block;
+  }
+  @include respond(xs) {
+    display: block;
+  }
+}
+
+.cardContainer {
+  width: 100%;
+  margin-left: 1em;
+
+  @include respond(md) {
+    margin-left: 0;
+    margin-top: 3em;
+  }
+  @include respond(sm) {
+    margin-left: 0;
+    margin-top: 3em;
+  }
+  @include respond(xs) {
+    margin-left: 0;
+    margin-top: 3em;
+  }
+}
+
+.row {
+  margin-top: 1em;
+  display: flex;
+
+  @include respond(sm) {
+    display: block;
+  }
+  @include respond(xs) {
+    display: block;
+  }
+}
+
+.column {
+  margin: 0 1em;
+  width: 36%;
+
+  @include respond(sm) {
+    margin: 1em 0;
+    width: 100%;
+  }
+  @include respond(xs) {
+    margin: 1em 0;
+    width: 100%;
+  }
+}
+
+.hermesContainer {
+  height: 9em;
+  width: 100%;
+
+  @include respond(sm) {
+    height: 6em;
+  }
+  @include respond(xs) {
+    height: 6em;
+  }
+}
+
+.vygrContainer {
+  height: 15em;
+  width: 36%;
+
+  @include respond(sm) {
+    height: 6em;
+    width: 100%;
+  }
+  @include respond(xs) {
+    height: 6em;
+    width: 100%;
+  }
+}
+
+.movieSearchContainer {
+  height: 6em;
+}
+
+.connectFourContainer {
+  height: 9em;
+  padding-top: 1em;
+  box-sizing: border-box;
+
+  @include respond(sm) {
+    padding-top: 0;
+    margin-top: 1em;
+    height: 6em;
+  }
+  @include respond(xs) {
+    padding-top: 0;
+    margin-top: 1em;
+    height: 6em;
+  }
+}
+
+.mundusContainer {
+  height: 15em;
+  width: 28%;
+
+  @include respond(sm) {
+    height: 6em;
+    width: 100%;
+  }
+  @include respond(xs) {
+    height: 6em;
+    width: 100%;
+  }
+}

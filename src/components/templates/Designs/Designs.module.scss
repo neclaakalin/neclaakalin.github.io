@@ -1,0 +1,90 @@
+@import "../../../assets/scss/colors.module.scss";
+@import "../../../assets/scss/mixins.module.scss";
+
+.designsContainer {
+  margin-top: 3em;
+  display: flex;
+  position: relative;
+}
+
+.bodyContainer {
+  position: absolute;
+  color: $white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include respond(sm) {
+    top: 20%;
+  }
+  @include respond(xs) {
+    top: 20%;
+  }
+}
+
+.designsCardContainer {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include respond(sm) {
+    flex-direction: column;
+  }
+  @include respond(xs) {
+    flex-direction: column;
+  }
+}
+
+.designPopUpBackground {
+  background-color: rgba($dark-grey, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.designPopUpContainer {
+  display: inline-block;
+  margin: 2em;
+}
+
+.popUpHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+  text-transform: lowercase;
+  margin-bottom: 0.5em;
+}
+
+.designImageContainer {
+  background-color: $white;
+  padding: 1em;
+  max-width: 100%;
+  max-height: 80vh;
+  overflow: scroll;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0.3em rgba($dark-grey, 0.3);
+}
+
+.popUpImage {
+  max-width: 100%;
+  box-shadow: 0px 0px 0.3em rgba($dark-grey, 0.1);
+}
