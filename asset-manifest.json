@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66bad9bb.css",
+    "main.js": "/static/js/main.687d8ec2.js",
+    "static/js/787.12a3fe04.chunk.js": "/static/js/787.12a3fe04.chunk.js",
+    "static/media/home-bg.jpg": "/static/media/home-bg.99b6d9d7a4a08bb29a32.jpg",
+    "static/media/designs-bg.jpg": "/static/media/designs-bg.98fb0632a526718aedd3.jpg",
+    "static/media/profile.jpg": "/static/media/profile.ac5e12aaf6303f4d8d7a.jpg",
+    "static/media/factoryMain.jpg": "/static/media/factoryMain.e5ee824307c659935c34.jpg",
+    "static/media/helpyourdiabetes.jpg": "/static/media/helpyourdiabetes.5758023be4efaa1199cb.jpg",
+    "static/media/factoryProducts.jpg": "/static/media/factoryProducts.fd97ced7cd14a44dfdca.jpg",
+    "static/media/vygr.png": "/static/media/vygr.2948f2768f38b87c1d81.png",
+    "static/media/mobile-vygr.jpg": "/static/media/mobile-vygr.ce2e5d69aac26aabd187.jpg",
+    "static/media/hermes.png": "/static/media/hermes.5b83c4b6ea0587792a47.png",
+    "index.html": "/index.html",
+    "main.66bad9bb.css.map": "/static/css/main.66bad9bb.css.map",
+    "main.687d8ec2.js.map": "/static/js/main.687d8ec2.js.map",
+    "787.12a3fe04.chunk.js.map": "/static/js/787.12a3fe04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bad9bb.css",
+    "static/js/main.687d8ec2.js"
+  ]
+}
