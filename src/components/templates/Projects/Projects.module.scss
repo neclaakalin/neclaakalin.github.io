@@ -65,10 +65,10 @@
   width: 100%;
 
   @include respond(sm) {
-    height: 6em;
+    height: 9em;
   }
   @include respond(xs) {
-    height: 6em;
+    height: 9em;
   }
 }
 
@@ -77,17 +77,24 @@
   width: 36%;
 
   @include respond(sm) {
-    height: 6em;
+    height: 9em;
     width: 100%;
   }
   @include respond(xs) {
-    height: 6em;
+    height: 9em;
     width: 100%;
   }
 }
 
 .movieSearchContainer {
   height: 6em;
+
+  @include respond(sm) {
+    height: 9em;
+  }
+  @include respond(xs) {
+    height: 9em;
+  }
 }
 
 .connectFourContainer {
@@ -98,12 +105,10 @@
   @include respond(sm) {
     padding-top: 0;
     margin-top: 1em;
-    height: 6em;
   }
   @include respond(xs) {
     padding-top: 0;
     margin-top: 1em;
-    height: 6em;
   }
 }
 
@@ -112,11 +117,11 @@
   width: 28%;
 
   @include respond(sm) {
-    height: 6em;
+    height: 9em;
     width: 100%;
   }
   @include respond(xs) {
-    height: 6em;
+    height: 9em;
     width: 100%;
   }
 }

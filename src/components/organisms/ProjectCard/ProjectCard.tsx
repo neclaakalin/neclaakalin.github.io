@@ -38,15 +38,20 @@ const ProjectCard = (props: ProjectCardProps) => {
   return (
     <div
       className={styles.projectCardContainer}
+      onMouseOver={() => handleHover(true)}
       onMouseLeave={() => handleHover(false)}
     >
-      <div
-        className={[styles.cardCover, isHovered ? styles.hovered : ""].join("")}
-        onClick={() => handleHover(true)}
-      >
-        {getLogo()}
-      </div>
-      <ProjectDescription name={props.title} />
+      {!isHovered && (
+        <div
+          className={[styles.cardCover, isHovered ? styles.hovered : ""].join(
+            ""
+          )}
+          onClick={() => handleHover(true)}
+        >
+          {getLogo()}
+        </div>
+      )}
+      {isHovered && <ProjectDescription name={props.title} />}
     </div>
   );
 };
